@@ -214,14 +214,12 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/MarioChvx/otp_etl.git
-
       - title: Console Manga Downloader
         content: A command line console to download manga from various websites, with just a little bit of information.
         image: /images/projects/keyboardmanga.png
         featured:
           name: Source Code
-          link: https://github.com/MarioChvx/console_manga_downloader.git
-
+          link: https://github.com/MarioChvx/cli_manga_downloader
         badges:
           - "Python"
           - "BS4"
