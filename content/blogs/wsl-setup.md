@@ -15,6 +15,14 @@ toc:
 
 Here I explain the process to install WSL to development, make the basic setup of some useful tools and also explain why I go that way.
 
+**Why should you use WSL?**
+
+- It's a friendly introduction to Linux.
+- Learning a new operative system will improve your understanding of how computers really works.
+- It can improve your workflow.
+- Most of the computers in the world are running Linux.
+- To look cool on the internet.
+
 ## Setting up Windows
 
 First we need to change some settings in window. Now we go to `Settings > Update & Security > For developers` and activate `Developer Mode`.
@@ -74,7 +82,7 @@ Then install some useful packages, **nala** is a frontend for aptitude(the packa
 sudo apt install nala vim nano git neofetch
 ```
 
-Also to save some time ad this configuration if you are going to work with git, just replace the fields with your own information,
+Also to save some time ad this to your **.gitconfig** file (if doesn't exist create it with `touche .gitconfig`) if you are going to work with git, just replace the fields with your own information.
 
 ``` git
 [user]
@@ -84,4 +92,6 @@ Also to save some time ad this configuration if you are going to work with git, 
         editor = aTextEditor
 ```
 
-So now run `neofetch` to look cool on the internet
+So now run `neofetch` to look cool on the internet. You can use Windows Terminal with WSL, also you can run WSL in Visual Studio code and add the WSL extension to improve your work flow. I would recommend you to research about symbolic links should be useful to improve your workflow, also about package managers, aliases, commands in bash. Using and understanding Linux operative systems is really fun and interesting hope you also get more interested in this topic just by using WSL.
+
+Thanks for reading hope it's useful for you.
